@@ -1,12 +1,12 @@
 // Api urls
 
-const ProxyApi = "https://proxy.techzbots1.workers.dev/?u="
+const ProxyApi = "https://prox.chadcinema.workers.dev/?u="
 const IndexApi = "/home";
 const recentapi = "/recent/";
 
 // Api Server Manager
 
-const AvailableServers = ['https://api1.anime-dex.workers.dev', 'https://api2.anime-dex.workers.dev', 'https://api3.anime-dex.workers.dev']
+const AvailableServers = ['https://api.chadcinema.workers.dev']
 
 function getApiServer() {
     return AvailableServers[Math.floor(Math.random() * AvailableServers.length)]
